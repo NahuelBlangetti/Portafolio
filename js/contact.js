@@ -9,7 +9,7 @@ frm.addEventListener("submit", event => {
     date: frm.mensaje.value
   };
 
-  const URL = `https://wa.me/543512293555?text=Nombre=${formData.name}%20Email=${formData.email}%20Mensaje=${formData.date}`;
+  const URL = `https://wa.me/543512293555?text=Nombre= ${formData.name}%20Email= ${formData.email}%20Mensaje= ${formData.date}`;
 
   window.open(URL, "_blank");
 });
