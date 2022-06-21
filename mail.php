@@ -1,15 +1,15 @@
 <?php
 
-    if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    if ($_SERVER["REQUEST_METHOD"] == "GET") {
 
         # FIX: Replace this email with recipient email
         $mail_to = "nahuelblangetti@gmail.com";
         
         # Sender Data
         //$subject = trim($_POST["subject"]);
-        $name = str_replace(array("\r","\n"),array(" "," ") , strip_tags(trim($_POST["name"])));
-        $email = filter_var(trim($_POST["email"]), FILTER_SANITIZE_EMAIL);
-        $message = trim($_POST["message"]);
+        $name = str_replace(array("\r","\n"),array(" "," ") , strip_tags(trim($_GET["name"])));
+        $email = filter_var(trim($_GET["email"]), FILTER_SANITIZE_EMAIL);
+        $message = trim($_GET["message"]);
         
         if ( empty($name) OR !filter_var($email, FILTER_VALIDATE_EMAIL) OR empty($message)) {
             # Set a 400 (bad request) response code and exit.
