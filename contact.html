@@ -87,15 +87,15 @@
                     <span class="text-color">Enviar un mensaje</span>
                     <h3 class="text-md mb-4">Formulario de Contacto</h3>
                     <div class="form-group">
-                        <input name="name" type="text" class="form-control" placeholder="Nombre">
+                        <input name="nombre" id="nombre" type="text" class="form-control" placeholder="Nombre" required>
                     </div>
                     <div class="form-group">
-                        <input name="email" type="email" class="form-control" placeholder="Email">
+                        <input name="apellidos" id="apellidos" type="text" class="form-control" placeholder="Email" required>
                     </div>
                     <div class="form-group-2 mb-4">
-                        <textarea name="message" class="form-control" rows="4" placeholder="Mensaje"></textarea>
+                        <textarea name="email" id="email" type="email" class="form-control" rows="4" placeholder="Mensaje" required></textarea>
                     </div>
-                    <button class="btn btn-main" href="https://wa.me/send?phone=543512293555&text=Nombre= ${name} / Email: ${email} / Mensaje: ${message}"><i class="fa fa-whatsapp"></i> Enviar Mensaje</button>
+                    <button id="submit" type="submit" class="btn btn-main" ><i class="fa fa-whatsapp"></i> Enviar Mensaje</button>
                 </form>
             </div>
 
@@ -141,13 +141,24 @@
     <!-- 
     Essential Scripts
     =====================================-->
+    <script type="text/javascript">
+      $(".form-group input").on("focus", function(){
+          $(this).addClass("focus");
+      });
 
+      $(".form-group input").on("blur", function(){
+          if($(this).val() == ""){
+              $(this).removeClass("focus");
+          }
+      });
+
+    </script>
     
     <!-- Main jQuery -->
-
+    <script src="js/contact.js"></script>
     <!-- Bootstrap 4.3.1 -->
     <script src="plugins/bootstrap/js/popper.js"></script>
-    <script src="plugins/bootstrap/js/bootstrap.min.js"></script>
+    <script src="plugins/bootstrap/js/bootstrap.min.js"></scrip>
    <!--  Magnific Popup-->
     <script src="plugins/magnific-popup/dist/jquery.magnific-popup.min.js"></script>
     <!-- Slick Slider -->
