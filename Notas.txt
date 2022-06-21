@@ -1,5 +1,0 @@
-- revicion de autografia y funcionamiento 
-- subir a git.
-- hacer funcionar form contact
--  add proyectos ( obviamente lleva tiempo).
- 
