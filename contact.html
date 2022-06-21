@@ -15,6 +15,7 @@
   <link rel="stylesheet" href="plugins/themify/css/themify-icons.css">
   <link rel="stylesheet" href="plugins/fontawesome/css/all.css">
   <link rel="stylesheet" href="plugins/magnific-popup/dist/magnific-popup.css">
+  <script src="https://kit.fontawesome.com/c03045fa21.js" crossorigin="anonymous"></script>
   <!-- Owl Carousel CSS -->
   <link rel="stylesheet" href="plugins/slick-carousel/slick/slick.css">
   <link rel="stylesheet" href="plugins/slick-carousel/slick/slick-theme.css">
@@ -81,15 +82,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-6 col-md-12 col-sm-12">
-                 <form id="contact-form" class="contact__form" method="get" action="mail.php">
-                 <!-- form message -->
-                    <div class="row">
-                        <div class="col-12">
-                            <div class="alert alert-success contact__msg" style="display: none" role="alert">
-                                Your message was sent successfully.
-                            </div>
-                        </div>
-                    </div>
+                 <form id="contact-form" action="https://api.whatsapp.com/send?phone=543512293555&text=nombre=%20${name}%20email:%20${email}%20me%20comunico%20para%20${message}">
                     <!-- end message -->
                     <span class="text-color">Enviar un mensaje</span>
                     <h3 class="text-md mb-4">Formulario de Contacto</h3>
@@ -102,7 +95,7 @@
                     <div class="form-group-2 mb-4">
                         <textarea name="message" class="form-control" rows="4" placeholder="Mensaje"></textarea>
                     </div>
-                    <button class="btn btn-main" name="submit" type="submit">Enviar Mensaje</button>
+                    <button class="btn btn-main" href="https://api.whatsapp.com/send?phone=543512293555&text=nombre= ${name} email: ${email} me comunico para ${message}"><i class="fa fa-whatsapp"></i> Enviar Mensaje</button>
                 </form>
             </div>
 
