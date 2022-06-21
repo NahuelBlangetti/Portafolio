@@ -82,7 +82,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-6 col-md-12 col-sm-12">
-                 <form id="contact-form">
+                 <form id="frm">
                     <!-- end message -->
                     <span class="text-color">Enviar un mensaje</span>
                     <h3 class="text-md mb-4">Formulario de Contacto</h3>
@@ -90,10 +90,10 @@
                         <input name="nombre" id="nombre" type="text" class="form-control" placeholder="Nombre" required>
                     </div>
                     <div class="form-group">
-                        <input name="apellidos" id="apellidos" type="text" class="form-control" placeholder="Email" required>
+                        <input name="email" id="email" type="text" class="form-control" placeholder="Email" required>
                     </div>
                     <div class="form-group-2 mb-4">
-                        <textarea name="email" id="email" type="email" class="form-control" rows="4" placeholder="Mensaje" required></textarea>
+                        <textarea name="mensaje" id="mensaje" type="text" class="form-control" rows="4" placeholder="Mensaje" required></textarea>
                     </div>
                     <button id="submit" type="submit" class="btn btn-main" ><i class="fa fa-whatsapp"></i> Enviar Mensaje</button>
                 </form>
@@ -141,18 +141,6 @@
     <!-- 
     Essential Scripts
     =====================================-->
-    <script type="text/javascript">
-      $(".form-group input").on("focus", function(){
-          $(this).addClass("focus");
-      });
-
-      $(".form-group input").on("blur", function(){
-          if($(this).val() == ""){
-              $(this).removeClass("focus");
-          }
-      });
-
-    </script>
     
     <!-- Main jQuery -->
     <script src="js/contact.js"></script>
