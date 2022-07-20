@@ -19,7 +19,8 @@
   <!-- Owl Carousel CSS -->
   <link rel="stylesheet" href="plugins/slick-carousel/slick/slick.css">
   <link rel="stylesheet" href="plugins/slick-carousel/slick/slick-theme.css">
-
+  <!-- Scroll -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <!-- Main Stylesheet -->
   <link rel="stylesheet" href="css/style.css">
 
@@ -64,7 +65,8 @@
   <div class="container">
     <div class="row">
       <div class="col-md-12">
-        <div class="block text-center">
+        <div class="block text-center" data-aos="fade-zoom-in"
+        data-aos-duration="3000">
           <span class="text-white">Sección de contacto</span>
           <h1 class="text-capitalize mb-4 text-lg">Contacto</h1>
           <ul class="list-inline">
@@ -78,7 +80,8 @@
   </div>
 </section>
 <!-- contact form start -->
-<section class="contact-form-wrap section">
+<section class="contact-form-wrap section" data-aos="fade-zoom-in"
+    data-aos-duration="3000">
     <div class="container">
         <div class="row">
             <div class="col-lg-6 col-md-12 col-sm-12">
@@ -151,6 +154,11 @@
     <script src="plugins/magnific-popup/dist/jquery.magnific-popup.min.js"></script>
     <!-- Slick Slider -->
     <script src="plugins/slick-carousel/slick/slick.min.js"></script>
+    <!-- Scroll -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
     <!-- Counterup -->
     <script src="plugins/counterup/jquery.waypoints.min.js"></script>
     <script src="plugins/counterup/jquery.counterup.min.js"></script>
