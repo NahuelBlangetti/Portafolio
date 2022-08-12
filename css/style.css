@@ -504,13 +504,13 @@ ul.dropdown-menu li {
 .bg-1 {
   background: url("../images/about/contact.jpg") no-repeat 50% 50%;
   background-size: cover;
-  margin-top: 5rem;
+  margin-top: 4rem;
 }
 
 .bg-2 {
   background: url("../images/bg/codigo.jpg");
   background-size: cover;
-  margin-top: 5rem;
+  margin-top: 4rem;
 }
 
 .slider {
