@@ -92,6 +92,16 @@ input[type="email"]:focus, input[type="password"]:focus, input[type="text"]:focu
   transition: all 0.2s ease;
 }
 
+.btn-secondary{
+  background: #0d9e3e;
+  color: #fff;
+}
+.btn-secondary:hover {
+  background: #076828;
+  color: #fff;
+}
+
+
 .btn.btn-icon i {
   font-size: 16px;
   vertical-align: middle;
@@ -119,6 +129,13 @@ input[type="email"]:focus, input[type="password"]:focus, input[type="text"]:focu
   border: 2px solid #06C5F6;
   background: transparent;
   color: #242424;
+}
+
+.carousel{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  margin-left: 6rem;
+  margin-right: 6rem;
 }
 
 .btn-solid-border:hover {
@@ -516,7 +533,7 @@ ul.dropdown-menu li {
 .slider {
   background: url("../images/bg/home-1.jpg") no-repeat;
   background-size: cover;
-  background-position: 10% 0%;
+  /* background-position: 10% 0%; */
   padding: 200px 0 280px 0;
   position: relative;
 }

@@ -3,32 +3,22 @@
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
-    <meta
-      name="description"
-      content="Portafolio de Nahuel Blangetti."
-    />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <meta name="description" content="Portafolio de Nahuel Blangetti." />
 
-    <title>Nahuel Blangetti Portafolio</title>
+    <title>Nahuel Blangetti | Portafolio</title>
     <link rel="Icon" href="./images/logo-nb.ico">
     <!-- bootstrap.min css -->
     <link rel="stylesheet" href="plugins/bootstrap/css/bootstrap.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
     <!-- Icon Font Css -->
     <link rel="stylesheet" href="plugins/themify/css/themify-icons.css" />
     <link rel="stylesheet" href="plugins/fontawesome/css/all.css" />
-    <link
-      rel="stylesheet"
-      href="plugins/magnific-popup/dist/magnific-popup.css"
-    />
+    <link rel="stylesheet" href="plugins/magnific-popup/dist/magnific-popup.css" />
     <!-- Owl Carousel CSS -->
     <link rel="stylesheet" href="plugins/slick-carousel/slick/slick.css" />
-    <link
-      rel="stylesheet"
-      href="plugins/slick-carousel/slick/slick-theme.css"
-    />
+    <link rel="stylesheet" href="plugins/slick-carousel/slick/slick-theme.css" />
 
     <!-- Main Stylesheet -->
     <link rel="stylesheet" href="css/style.css" />
@@ -111,13 +101,45 @@
           </div>
         </div>
       </section>
-	  <section>
-		  <div class="col-md-12 p-3">
-			  <h4 class="text-center text-muted">
-				  Actualmente no hay proyectos. Están en proceso...
-			  </h4>
-		  </div>
-	  </section>
+
+      <section>
+        <div class="carousel">
+          <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="400" src="./images/proyect1/primary.png" alt="">
+              </div>
+              <div class="carousel-item">
+                <img class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="400" src="./images/proyect1/cars.png" alt="">
+              </div>
+              <div class="carousel-item">
+                <img class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="400" src="./images/proyect1/football.png" alt="">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+        <div class="m-5 ">
+					<h2 class="mt-6 mb-2 text-center position-relative"> Gallery App</h2>
+          <p class="mb-3 text-center">Aplicacion que tiene como funcion la busqueda de imagenes. Se utilizo: React JS.</p>
+          <div class="text-center">
+            <button type="button" class="btn btn-primary btn-round-full" onclick="window.location.href='https://github.com/NahuelBlangetti/gallery-app'">Code</button>
+            <button type="button" class="btn btn-secondary btn-round-full" onclick="window.location.href='https://nahuelblangetti.github.io/gallery-app/'">View Live</button>
+          </div>
+      </section>
+      
       <footer>
         <div class="footer-btm pt-4 p-3">
           <div class="row">
@@ -149,6 +171,7 @@
     <script src="plugins/jquery/jquery.js"></script>
     <script src="js/contact.js"></script>
     <!-- Bootstrap 4.3.1 -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
     <script src="plugins/bootstrap/js/popper.js"></script>
     <script src="plugins/bootstrap/js/bootstrap.min.js"></script>
     <!--  Magnific Popup-->
