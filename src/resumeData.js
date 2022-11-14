@@ -85,7 +85,8 @@ let resumeData = {
       {
         "name":"Gallery App",
         "description":"Aplicacion para buscar imagenes aleatorias realizadas con Reactjs",
-        "imgurl":"images/portfolio/cars.png"
+        "imgurl":"images/portfolio/cars.png",
+        "url": "https://nahuelblangetti.github.io/gallery-app/"
       }
     ],
     "testimonials":[
