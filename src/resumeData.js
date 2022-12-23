@@ -13,12 +13,11 @@ let resumeData = {
         },
         {
           "name":"github",
-          "url":"https://www.linkedin.com/in/nahuelblangetti/",
+          "url":"https://github.com/NahuelBlangetti",
           "className":"fa fa-github"
         }
       ],
-    "aboutme":"Destaco mucho mi habilidad de amoldarme a las tecnologías gracias a mi gran conocimiento en JavaScript (lenguaje que utilizó hace más de 2 años), por eso puedo decir que tengo la agilidad de aprender a utilizar herramientas como React, Angular, Node JS (con las cuales trabaje). En la empresa Key Data me contratan siendo un desarrollador inexperimentado y tuve la oportunidad de desarrollar en el área de Back End con el lenguaje de programación PHP, framework Laravel y Base de Datos. Fue un desafío en el que aprendí como afrontarse hacia nuevas tecnologías y lo más importante la comunicación con mis compañeros e investigar sobre los desconocimientos que se me dispongan en el momento de trabajar.",
-    "address":"Argentina",
+    "address":"Ciudad de Córdoba, Argentina.",
     "website":"NahuelBlangetti@gmail.com",
     "education":[
       {
@@ -39,10 +38,10 @@ let resumeData = {
         "specialization":"Desarrollador Web Full Stack",
         "añoEntrada":"Agosto 2021",
         "YearOfLeaving":"Actualidad",
-        "Achievements":"Creación y actualización de modulos en el area de Front y Back"
+        "Achievements":'Desarrollo en las áreas Front-end y Back-end. Actualización y desarrollo de las Aplicaciones Web. Los lenguajes utilizados en dicha empresa son JavaScript, PHP, SQL. Frameworks: Laravel, Angular, ReactJS, LiveWire. Herramientas: Jira, Bitbucket, MariaDB, MongoDB. Metodología ágil: Scrum. Modalidad: Presencial.'
       }
     ],
-    "skillsDescription":"Herramientas en las que tengo experiencia",
+    "skillsDescription":"Lenguajes y herramientas en las que tengo experiencia.",
     "skills":[
       {
         "skillname":"HTML5"
