@@ -4,7 +4,7 @@ let resumeData = {
     "role": "Desarrollador Web Full Stack",
     "linkedinId":"Your LinkedIn Id",
     "skypeid": "Your skypeid",
-    "roleDescription": "con pasión hacía la programación que me ayuda a atravesar obstáculos, desafíos y aprender facilmente sobre nuevas tecnologías.",
+    "roleDescription": "con interés en seguir creciendo tanto en experiencia laboral como en conocimientos de nuevas tecnologías para así aumentar día a día mi desempeño y poder dar el máximo de mis capacidades.",
     "socialLinks":[
         {
           "name":"linkedin",
@@ -59,7 +59,7 @@ let resumeData = {
         "skillname":"Python"
       },
       {
-        "skillname":"Angularjs"
+        "skillname":"Angular"
       },
       {
         "skillname":"Reactjs"
