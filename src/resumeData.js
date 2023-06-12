@@ -35,10 +35,17 @@ let resumeData = {
     "work":[
       {
         "CompanyName":"Key Data",
-        "specialization":"Desarrollador Web Full Stack",
-        "añoEntrada":"Agosto 2021",
-        "YearOfLeaving":"Actualidad",
+        "specialization":"Full Stack Developer",
+        "añoEntrada":"Septiembre 2021",
+        "YearOfLeaving":"Febrero 2023",
         "Achievements":'Desarrollo en las áreas Front-end y Back-end. Actualización y desarrollo de las Aplicaciones Web. Los lenguajes utilizados en dicha empresa son JavaScript, PHP, SQL. Frameworks: Laravel, Angular, ReactJS, LiveWire. Herramientas: Jira, Bitbucket, MariaDB, MongoDB. Metodología ágil: Scrum. Modalidad: Presencial.'
+      },
+      {
+        "CompanyName":"Zyla Labs",
+        "specialization":"Full Stack Developer",
+        "añoEntrada":"Marzo 2023",
+        "YearOfLeaving":"Actualidad",
+        "Achievements":'API development and maintenance. Modalidad: Remoto.'
       }
     ],
     "skillsDescription":"Lenguajes y herramientas en las que tengo experiencia.",

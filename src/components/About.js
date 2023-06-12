@@ -16,7 +16,7 @@ export default class About extends Component {
 
                   <h2>About Me</h2>
                   <p>
-                     Llevo más de 2 años estudiando programación, mis primeras interacciones con la profesión fueron en la universidad donde aprendí a programar con  Python, a partir de allí empecé a estudiar de manera autodidacta mediante plataformas de cursos, JavaScript. Luego de los años de puro aprendizaje, conseguí mi primer  trabajo en KeyData.
+                     Llevo más de 3 años estudiando programación, mis primeras interacciones con la profesión fueron en la universidad donde aprendí a programar con  Python, a partir de allí empecé a estudiar de manera autodidacta mediante plataformas de cursos, JavaScript. Luego de los años de puro aprendizaje, conseguí mi primer  trabajo en KeyData.
                      <br />
                      Destaco mucho mi habilidad de amoldarme a las tecnologías gracias a mi gran conocimiento en JavaScript (lenguaje que utilizó hace más de 1 año), tengo proyectos personales donde utilizó el stack “MERN” y cuento con experiencia laboral en ReactJS y Angular.
                      En la empresa Key Data tuve la oportunidad de trabajar en el área de Back-end y Front-end con el lenguaje de programación PHP, utilizando el framework Laravel y Livewire.
