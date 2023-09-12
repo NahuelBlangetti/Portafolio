@@ -1,10 +1,10 @@
 let resumeData = {
     "imagebaseurl":"https://rbhatia46.github.io/",
     "name": "Leonardo Nahuel Blangetti",
-    "role": "Desarrollador Web Full Stack",
+    "role": "I am Full Stack Developer",
     "linkedinId":"Your LinkedIn Id",
     "skypeid": "Your skypeid",
-    "roleDescription": "con interés en seguir creciendo tanto en experiencia laboral como en conocimientos de nuevas tecnologías para así aumentar día a día mi desempeño y poder dar el máximo de mis capacidades.",
+    "roleDescription": "with a passion for programming, which drives me to overcome obstacles and face challenges with determination. My commitment is reflected in my constant updating regarding the latest technologies in the industry. I am focused on continuous growth and learning in this ever-changing field.",
     "socialLinks":[
         {
           "name":"linkedin",
@@ -29,7 +29,7 @@ let resumeData = {
         "UniversityName":"Universidad Tecnológica Nacional",
         "specialization":"Ingenieria en Sistemas de Informacion",
         "YearOfPassing":"2021",
-        "Achievements":"Destacó mis años estudiados ya que es donde aprendí a programar con Python."
+        "Achievements":"I highlight my years of study, since during this period I acquired skills in programming using Python, as well as in other subjects such as discrete mathematics, which contributed significantly to my development in mathematical logic."
       }
     ],
     "work":[
@@ -38,14 +38,14 @@ let resumeData = {
         "specialization":"Full Stack Developer",
         "añoEntrada":"Septiembre 2021",
         "YearOfLeaving":"Febrero 2023",
-        "Achievements":'Desarrollo en las áreas Front-end y Back-end. Actualización y desarrollo de las Aplicaciones Web. Los lenguajes utilizados en dicha empresa son JavaScript, PHP, SQL. Frameworks: Laravel, Angular, ReactJS, LiveWire. Herramientas: Jira, Bitbucket, MariaDB, MongoDB. Metodología ágil: Scrum. Modalidad: Presencial.'
+        "Achievements":'Creation, development and constant updating of a comprehensive supplier management control system. This included the conceptualization and construction of a platform that would allow a more efficient administration of medical service providers, streamlining procedures and improving communication between the parties involved. In addition, I worked on the regular implementation of improvements and updates to ensure that the system kept in line with the changing needs of the healthcare environment.'
       },
       {
         "CompanyName":"Zyla Labs",
         "specialization":"Full Stack Developer",
         "añoEntrada":"Marzo 2023",
         "YearOfLeaving":"Actualidad",
-        "Achievements":'API development and maintenance. Modalidad: Remoto.'
+        "Achievements":'In my role as a REST API developer at Zyla, I build, maintain, and update APIs with PHP and Python. I design efficient APIs for fluid communication and optimize the existing ones through monitoring and improvements. My goal: Secure and reliable APIs that keep pace with changing technology needs'
       }
     ],
     "skillsDescription":"Lenguajes y herramientas en las que tengo experiencia.",
@@ -97,7 +97,7 @@ let resumeData = {
     ],
     "testimonials":[
       {
-        "description":"Espero haber obtenido una buena referencia sobre mi.",
+        "description":"I hope I got a good reference about myself.",
         "name":"Leonardo Nahuel Blangetti"
       }
     ]
